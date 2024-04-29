@@ -1,0 +1,134 @@
+.title {
+    color: rgb(77, 11, 158);
+    font-size: 38px;
+    text-shadow: rgb(255, 19, 169);
+    margin-left: -25px;
+  
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+
+.ko{
+  color: rgb(72, 0, 155);
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 750;
+  margin-top: 25px;
+  margin-bottom: 18px;
+}
+
+.kl {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding-left: 50px;
+}
+
+.ko {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(72, 76, 135);
+  font-size: 22px;
+}
+.terms{
+    color: rgb(38, 4, 4);
+    padding-top: 20px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.sub-heading {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.intellectual-property p {
+    margin-bottom: 15px;
+}
+
+.reception p {
+    margin-bottom: 10px;
+}
+
+.reception p:last-child {
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.help {
+    padding-left: 40px;
+    background-color: white;
+    font-family: fix;
+    
+}
+
+.fff {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.az {
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+.kl {
+    padding-left: 60px;
+}
+
+.ord {
+    font-size: 16px;
+}
+.az {
+  size: 20px;
+  padding-left: 20px;
+  list-style-type: circle;
+}
+
+.kl {
+  color: rgb(0, 0, 0);
+  padding-left: 60px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.ord {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 28px;
+  font-family: "Roboto", sans-serif;
+}
+.misac {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.dam {
+  margin-top: 15px;
+  padding-left: 19px;
+}
+.q {
+  color: red;
+  padding-left: 30px;
+  font-size: 25px;
+}
+.int {
+  margin-top: -15px;
+}
+.int{
+    margin-top: -15px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 140px;
+    margin: 0 auto;
+    background: none;
+    padding-top: 80px;
+    
+}

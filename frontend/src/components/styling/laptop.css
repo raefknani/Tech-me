@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+.lapptopp img {
+  width: 500px;
+}
+.comment1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.comment2 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+.comments {
+  margin-top: 60px;
+}

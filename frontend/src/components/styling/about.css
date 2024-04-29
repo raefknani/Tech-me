@@ -1,0 +1,147 @@
+.About {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(207, 203, 203, 0.112);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 25px;
+}
+.g {
+  color: rgb(77, 11, 158);
+  font-size: 38px;
+  text-shadow: rgb(255, 19, 169);
+  margin-left: -25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.j {
+  color: rgb(72, 0, 155);
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 750;
+  margin-top: 25px;
+  margin-bottom: 18px;
+}
+.About ul.a {
+  list-style-type: circle;
+  display: block;
+}
+.About li {
+  list-style-type: circle;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.About ul {
+  margin-left: 50px;
+}
+
+.About span {
+  font-weight: bolder;
+}
+
+.co {
+  padding-right: 50px;
+  text-align: left;
+}
+.es {
+  padding-bottom: 20px;
+  padding-right: 50px;
+  font-size: 18px;
+}
+.lii{
+  font-size: 19px;
+}
+.bo {
+  text-align: center;
+  margin-top: 60px;
+}
+.do {
+  text-align: center;
+  margin-top: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.all {
+  padding-left: 40px;
+}
+.trrt {
+  padding-bottom: 2px;
+  font-weight: 700;
+  padding-top: 40px;
+}
+.ms {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(70, 32, 108);
+  font-size: 23px;
+}
+.smd {
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.bb {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.fs {
+  border: 2px solid rgb(110, 110, 110);
+  border-radius: 140px;
+  box-shadow: inset 0 0 4px #8f8c8c;
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 80px;
+  background-image: url('../components/laptop_images/ii.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fs li {
+  list-style-type: none;
+  margin: 0 auto;
+}
+.smd {
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.fc,
+.insta,
+.x {
+  margin: 0 auto;
+  width: 40px;
+  padding-left: -30px;
+}
+
+.im img {
+  margin-top: 80px;
+  width: 110px;
+}
+.loogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; 
+  margin: 0 auto;
+  background: none;
+  padding-top: 20px;/* nermine */
+}
+
+.fc {
+  margin-left: -55px;
+}
+
+.ll {
+  padding-bottom: 5px;
+}
+.smd{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}

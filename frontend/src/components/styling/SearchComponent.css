@@ -1,0 +1,29 @@
+.SearchComponent input {
+  margin-top: 10px;
+  border-radius: 25px;
+  border: none; /* inital border */
+  height: 17px;
+  width: 1px;
+  background-image: url("../../assets/images/backgrounds/image.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  padding: 12px 0px 12px 40px;
+  background-position: 10px 8px;
+  font-size: 15px;
+  transition: 0.5s;
+
+}
+
+.SearchComponent input::placeholder {
+  color: transparent; /* inital placeholder color */
+}
+
+.SearchComponent input:focus {
+  width: 200px;
+}
+
+.SearchComponent input:focus::placeholder {
+  color: black; /* focus placeholder color */
+}
+
+

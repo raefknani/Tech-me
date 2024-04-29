@@ -1,0 +1,18 @@
+/* existing styles... */
+
+.container.expanded {
+    height: 100vh;
+  }
+  
+  .barr1.rotate,
+  .barr3.rotate {
+    transform: translateY(16px) rotate(45deg);
+  }
+  
+  .barr2.hidden {
+    visibility: hidden;
+  }
+  
+  .barr3.rotate {
+    transform: translateY(-16px) rotate(-45deg);
+  }

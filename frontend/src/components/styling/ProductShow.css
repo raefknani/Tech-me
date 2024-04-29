@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.PSH {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.PSH h1 {
+  color: rgb(0, 0, 46);
+  text-align: center;
+  font-size: 60px;
+  font-weight: 340;
+  font-family: "Inter", sans-serif;
+}
+.PSH {
+  text-align: center;
+}
+.CONTENT {
+  margin-bottom: 70px;
+  margin-right: 20px;
+}
+
+.productHover img:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
+.mainPSH li {
+  transition: transform 0.5s;
+}
+
+.mainPSH {
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.mainPSH {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.shopall:hover {
+  opacity: 0.8;
+}
+
+.shopall {
+  background-color: white;
+  font-size: 15px;
+  font-weight: 700;
+  color: #3c4b3d;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 25px;
+  padding: 15px;
+  border: 1px solid #3c4b3d;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 80px;
+}
+
+.CONTENT {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.breakLine {
+  display: block;
+}

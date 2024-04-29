@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+  margin-left: -1px;
+  padding: 0;
+}
+
+.lokza {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  right: 12%;
+  bottom: 10%;
+}
+
+.lokza h1 {
+  font-size: 55px;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+.btns button {
+  margin-left: 10px;
+  padding: 18px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 25px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 280;
+  font-size: 16px;
+}
+
+.btns button:hover {
+  opacity: 0.85;
+}
+.btns {
+  margin-top: 20px;
+  position: absolute;
+  left: 19%;
+  right: 25%;
+}
+
+.homeIMG {
+  margin-top: 80px;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.LaptopBox {
+  padding-bottom: 70px;
+  text-align: center;
+  height: 200px;
+  width: 300px;
+}
+
+.LaptopBox img {
+  width: 80%;
+
+  transition: 0.5s;
+}
+
+.LaptopBox img:hover {
+  scale: 1.05;
+}
+
+.p1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.p2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 725;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.LaptopBox p {
+  line-height: 1.5;
+}

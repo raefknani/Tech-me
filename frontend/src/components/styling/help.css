@@ -1,0 +1,60 @@
+.containerV2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 67vh; /* nermine */
+  margin-bottom: 90px;
+}
+.boxV2 {
+  width: 240px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid rgba(1, 5, 30, 0.845);
+  box-shadow: none;
+  font-size: 20px;
+  transition: all 0.5s ease;
+  background-color: rgba(71, 75, 117, 0.066);
+  padding-left: 40px;
+}
+
+.helpV2 {
+  width: 100%;
+  height: 100vh;
+  /* nermine */
+}
+
+.ki,
+.ka {
+  color: rgb(100, 77, 77);
+  margin: 40px;
+  font-weight: 600;
+}
+
+.boxV2:hover {
+  background-color: #c8c5c5;
+
+  transform: scale(1.05);
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.ki {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 22px;
+  color: rgb(100, 77, 77);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.ka {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 22px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.howt {
+  margin-top: 155px;
+}
