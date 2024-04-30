@@ -1,30 +1,32 @@
 .About {
   justify-content: center;
-  margin-left: auto;
+  margin-left:auto;
   margin-right: auto;
-  background-color: rgba(207, 203, 203, 0.112);
-  width: fit-content;
-  height: fit-content;
-  border-radius: 25px;
+  background-color: rgba(221, 213, 213, 0.199);
+  width:max-content;
+  height:750px;
+  margin-top: 105px;
+  padding-bottom: 80px;
 }
 .g {
-  color: rgb(77, 11, 158);
-  font-size: 38px;
-  text-shadow: rgb(255, 19, 169);
-  margin-left: -25px;
+  color: rgb(2, 0, 21);
+  font-size: 33px;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  margin-top: 30px;
-  margin-left: 30px;
+  font-weight: 550;
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 30px;
+  
 }
 .j {
-  color: rgb(72, 0, 155);
-  font-size: 30px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: 750;
-  margin-top: 25px;
-  margin-bottom: 18px;
-}
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(17, 4, 91);}
+
 .About ul.a {
   list-style-type: circle;
   display: block;
@@ -42,106 +44,125 @@
 .About span {
   font-weight: bolder;
 }
-
-.co {
-  padding-right: 50px;
-  text-align: left;
-}
-.es {
-  padding-bottom: 20px;
-  padding-right: 50px;
-  font-size: 18px;
-}
-.lii{
-  font-size: 19px;
-}
-.bo {
-  text-align: center;
-  margin-top: 60px;
-}
-.do {
-  text-align: center;
-  margin-top: 8px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.all {
-  padding-left: 40px;
-}
 .trrt {
-  padding-bottom: 2px;
-  font-weight: 700;
-  padding-top: 40px;
+  font-weight: 500;
+  
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+.taht{
+  margin-left: 20px;
 }
 .ms {
   padding-top: 10px;
-  padding-bottom: 10px;
-  color: rgb(70, 32, 108);
-  font-size: 23px;
+  color: rgb(17, 4, 91);
+  font-size: 20px;
+  padding-left: 17px;
+
 }
-.smd {
-  font-weight: 700;
-  font-size: 22px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.fc{
+  width: 40px;
+
 }
-.bb {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-.fs {
-  border: 2px solid rgb(110, 110, 110);
-  border-radius: 140px;
-  box-shadow: inset 0 0 4px #8f8c8c;
-  width: 700px;
-  height: 400px;
-  margin: 0 auto;
-  margin-top: 80px;
-  background-image: url('../components/laptop_images/ii.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.fs li {
-  list-style-type: none;
-  margin: 0 auto;
-}
-.smd {
-  font-weight: 600;
-  color: rgb(0, 0, 0);
-  margin: 0 auto;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
+
 .fc,
 .insta,
-.x {
-  margin: 0 auto;
-  width: 40px;
-  padding-left: -30px;
-}
-
-.im img {
-  margin-top: 80px;
-  width: 110px;
-}
-.loogo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px; 
-  margin: 0 auto;
-  background: none;
-  padding-top: 20px;/* nermine */
-}
-
-.fc {
-  margin-left: -55px;
-}
-
-.ll {
-  padding-bottom: 5px;
-}
-.smd{
-  margin-top: 15px;
-  margin-bottom: 15px;
+.x{
   
+  margin-left: 10px;
+  display: inline-block;
+  margin-top: -39px;
+  padding-bottom: 60px;
+}
+.soc{
+  font-weight: bold;
+  margin-left: 350px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+.us{
+  margin-left: 190px;
+  margin-right: auto;
+  margin-top: -70px;
+
+}
+.action1{
+  display:flex;
+  margin-left: 30px;
+  
+}
+
+.x{
+  width: 38px;
+}
+.phone{
+    
+    padding-top: 21px;
+  }
+  
+.cc{
+  margin-top: -1px;
+  margin-bottom: 15px;
+  padding-left: 245px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+.follow{
+  padding-top: 30px;
+}
+.ligne{
+  height: 1px;
+  background-color: black;
+  margin-top: 100px;
+  margin-left: 0px;
+
+}
+.c{
+  padding-right: 100px;
+  display: inline-block;
+  margin-left: -150px;
+  
+}
+.lekh{
+  margin-left: 60px;
+  margin-top: 20px;
+
+}
+
+.insta{
+  width: 42px;
+  
+}
+.last{
+  margin-left: 840px;
+  font-weight: normal;
+  margin-top: -135px;
+  font-size: 17px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+.allsoc{
+  margin-left: 200px;
+  margin-top: 45px;
+}
+.lil{
+  font-weight: bold;
+  margin-top: 20px;
+  padding-right: 40px;
+  padding-left:150px;
+}
+.mail{
+  margin-left: 40px;
+  margin-top: 2px;
+ 
+}
+.grass{
+  font-weight: bold;
+}
+.padi{
+  padding-left: 20px;
 }

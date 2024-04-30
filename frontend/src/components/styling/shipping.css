@@ -1,144 +1,111 @@
 .shipping-container {
   justify-content: center;
-  margin-left: auto;
+  margin-left:auto;
   margin-right: auto;
-  background-color: rgba(207, 203, 203, 0.112);
-  width: fit-content;
-  height: fit-content;
-  border-radius: 25px;
-}
-
-.biit {
-  padding-left: 25px;
-}
-
-.delivery-heading {
-  padding-bottom: 10px;
-  color: rgb(70, 32, 108);
-  font-size: 23px;
-}
-.sub-delivery-heading {
-  padding-left: 45px;
-}
-
-.sub-delivery-heading {
-  font-size: 19px;
-  color: rgb(2, 64, 81);
-  padding-left: 45px;
-}
-
-.description,
-.sub-delivery-description {
-  font-size: 17px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(0, 0, 0);
-  margin-bottom: 10px;
-  margin-left: 30px;
-}
-.sub-delivery-description {
-  font-family: "Roboto", sans-serif;
-  color: rgb(0, 0, 0);
-}
-
-.JoinUsContainer li {
-  list-style-type: none;
-  margin: 0 auto;
-}
-
-.pp {
-  margin-left: 40px;
-  font-size: 17px;
-  font-weight: 300;
-}
-.ppp {
-  font-size: 17px;
-  font-weight: 300;
-  margin-left: 40px;
-}
-.pss {
-  font-size: 17px;
-  font-weight: 300;
-  margin-left: 40px;
-  font-family: "Roboto", sans-serif;
-  margin-top: -px;
-}
-.psss {
-  font-size: 17px;
-  font-weight: 300;
-  font-family: "Roboto", sans-serif;
-  margin-left: 40px;
-  margin-top: 8px;
-}
-.pee {
-  font-family: "Roboto", sans-serif;
-  font-size: 17px;
-  font-weight: 300;
-  margin-left: 40px;
-}
-.azzz {
-  font-size: 17px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  margin-left: 40px;
-  margin-top: 10px;
-}
-.dado {
-  font-family: "Roboto", sans-serif;
-}
-
-.jj {
-  padding-left: 30px;
-}
-.bbb {
-  font-family: "Roboto", sans-serif;
-}
-
-.JoinUsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.JoinUsContainer {
-  text-align: center;
-  display: flex;
-  border: 2px solid rgb(110, 110, 110);
-  border-radius: 140px;
-  box-shadow: inset 0 0 4px #8f8c8c;
-  width: 700px;
-  height: fit-content;
-  margin: 0 auto;
-  margin-top: 70px;
-  background-image: url("../components/laptop_images/ii.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgba(221, 213, 213, 0.199);
+  width:max-content;
+  height:1000px;
+  margin-top: 105px;
   padding-bottom: 80px;
-  padding-top: 20px;
-}
-.JoinUsContainer li {
-  list-style-type: none;
 }
 
-.smdd,
-.smdc {
+.titlee {
+  color: rgb(2, 0, 21);
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
   font-weight: 550;
-  color: rgb(0, 0, 0);
-  margin: 0 auto;
-  margin-bottom: 15px;
-  font-size: 22px;
-  margin-top: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 40px;
+}
+.delivery-heading {
+
+  padding-top: 10px;
+  color: rgb(17, 4, 91);
+  font-size: 20px;
+  padding-left: 40px;
 }
 
-.smd {
-  font-weight: 700;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+.description{
+  margin-left: 60px;
+  margin-bottom: -15px;
+  font-size: 16px;
+  padding-top: 5px;
+
 }
-.coc {
-  font-weight: 600;
+.ligne2{
+  height: 1px;
+  background-color: black;
+  margin-top: 150px;
+  margin-left: 0px;
+
 }
+.uss{
+  margin-left: 190px;
+  margin-right: auto;
+  margin-top: -70px;
+
+}
+.lasta{
+  margin-left: 840px;
+  font-weight: normal;
+  margin-top: -135px;
+  font-size: 17px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+.allsoca{
+  margin-left: 200px;
+  margin-top: 45px;
+}
+.soca{
+  font-weight: bold;
+  margin-left: 350px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+.lila{
+  font-weight: bold;
+  margin-top: 20px;
+  padding-right: 40px;
+  padding-left:150px;
+}
+.ccc{
+  margin-top: -1px;
+  margin-bottom: 15px;
+  padding-left: 245px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+.c1{
+  padding-right: 100px;
+  display: inline-block;
+  margin-left: -150px;
+  
+}
+.lekha{
+  margin-left: 60px;
+  margin-top: 20px;
+
+}
+.sub-delivery-heading {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  padding-left: 65px;
+  margin-top: 10px;
+}
+.sub-delivery-description {
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 0, 0);
+  margin-left: 100px;
+  line-height: 2; 
+}
+
+
+
 .fcc,
 .instaa,
 .xx {
@@ -149,52 +116,9 @@
 .fcc {
   margin-left: 250px; /* nermine */
 }
-.ppp {
-  font-family: "Roboto", sans-serif;
-}
-.logoo img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 200px;
-  margin: 0 auto;
-  background: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.titlee {
-  color: rgb(77, 11, 158);
-  font-size: 38px;
-  text-shadow: rgb(255, 19, 169);
-  margin-left: 10px;
-  margin-bottom: 25px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  margin-top: 30px;
-}
-.smIcons ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-  margin-top: 10px;
-
-}
-.smIcons ul li img {
-
-  height: 40px;
-}
-
-.linkWebsite{
-  margin-top: 10px;
-  margin-bottom: 10px;
-
-}
 
 
 .a{
-
   margin-top: 20px;
   margin-bottom: 20px;
 }

@@ -1,14 +1,16 @@
-import React from "react";
+function handleSubmit(event) {
+  event.preventDefault();
 
-function handleSubmit() {
-    const description = document.getElementById("description").value;
-    var list = {};
-    if (description) {
-      list = data.filter((item) => {
-        return item.description.includes(description);
-      });
-    }
-    console.log("Searching for " + list);
-  }
+  const description = document.getElementById('description').value;
 
-  export default handleSubmit;
+  fetch('http://localhost:5000/submit', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: `description=${description}`,
+  })
+  .then(response => response.text())
+  .then(data => console.log(data));
+}
+export default handleSubmit;

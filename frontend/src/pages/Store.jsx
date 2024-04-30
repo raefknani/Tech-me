@@ -1,9 +1,9 @@
 import React from "react";
-import Head from "../components/head.jsx";
+import Head from "../components/head";
 import "../components/styling/Store.css";
 import { NavLink } from "react-router-dom";
 
-import LaptopStore from "../components/LaptopStore.jsx";
+import LaptopStore from "../components/LaptopStore";
 
 import lap1 from "../assets/images/laptop_images/laptop1.png";
 import lap2 from "../assets/images/laptop_images/laptop2.png";

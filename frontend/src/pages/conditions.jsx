@@ -1,55 +1,40 @@
 import React from "react";
 import Head from "../components/head.jsx";
 import "../components/styling/conditions.css";
-
+import logo from "../assets/images/logos/logo.png";
 
 function Conditions() {
   return (
     <div className="conditions-container">
       <Head />
       <div className="help">
-        <p className="title">Conditions of use:</p>
+        <p className="title">Terms of use</p>
         <p className="description">
           Welcome to TechMe! These terms and conditions outline the rules and
-          regulations for the use of TechMe's website. By accessing this
-          website, we assume you accept these terms and conditions in full. Do
-          not continue to use TechMe's website if you do not accept all of the
-          terms and conditions stated on this page.
+          regulations for the use of TechMe's website.
+        <div className="description1">By accessing this website, we assume you accept these terms and
+          conditions in full.</div>
         </p>
         <div className="responsibilities">
           <p className="sub-heading">
             <strong className="ko">User's Responsibilities:</strong>
           </p>
           <div className="fff">
-            <p className="kl">
-              ● Users must provide accurate and complete information when
-              configuring their computers
-            </p>
-            <p className="kl">
-              ● Users are responsible for maintaining the security of their
-              accounts and passwords.
-            </p>
-            <p className="kl">
-              ● Users must not engage in any activity that may disrupt the
-              proper functioning of the website or interfere with other users'
-              experiences
-            </p>
+            <p className="kl">● Users must provide accurate and complete information when configuring their computers</p>
+            <p className="kl">● Users are responsible for maintaining the security of their accounts and passwords.</p>
+            <p className="kl">● Users must avoid actions that disrupt the website or affect others' experiences.</p>
           </div>
         </div>
         <div className="intellectual-property">
           <p className="sub-heading">
             <strong className="ko">Intellectual Property:</strong>
           </p>
-          <p className="kl">
-            All content on TechMe's website, including but not limited to text,
-            graphics, logos, images, and software, is the property of TechMe or
-            its content suppliers and is protected by international copyright
-            laws.
+          <p className="kll">
+          Content on TechMe's site, like text, graphics, logos, images, and software, belongs to TechMe or its suppliers, protected by copyright. Users can't reproduce, distribute, or create derivative works without TechMe's express permission.
           </p>
           <div className="int">
             <p className="kl">
-              Users may not reproduce, distribute, or create derivative works
-              based on this content without express permission from TechMe.
+              
             </p>
           </div>
         </div>
@@ -83,16 +68,15 @@ function Conditions() {
         </p>
         <p className="kl">
           These terms and conditions shall be governed by and construed in
-          accordance with the laws of Tunisia, and any disputes relating to
-          these terms and conditions will be subject to the exclusive
-          jurisdiction of the international courts.
+          accordance with the laws of Tunisia, and any disputes relating to these
+          terms and conditions will be subject to the exclusive jurisdiction of
+          the international courts.
         </p>
         <div className="reception">
-          <p className="sub-heading">Reception :</p>
-          <p className="az">
-            <span className="black-circle">&#9679;</span> Missing accessory or
-            part:
+          <p className="sub-heading">
+            Reception :
           </p>
+          <p className="az"><span className="black-circle">&#9679;</span> Missing accessory or part:</p>
           <div className="ord">
             <p className="kl">
               Upon receiving your order, you must verify that your product is
@@ -100,24 +84,14 @@ function Conditions() {
             </p>
           </div>
           <div className="ord">
-            <p className="kl">
-              <span className="q">!</span> If you notice that certain
-              accessories of the ordered product are missing from your package,
-              please contact TechMe Customer Service no later than two (2)
-              calendar days after receiving your order so that we can address
-              your complaint.
+            <p className="frr" >
+            If any accessories are missing from your ordered product, contact TechMe Customer Service within two (2) calendar days of receiving your order to address the issue.
             </p>
           </div>
-          <p className="az">
-            <span className="black-circle">&#9679;</span> Damaged delivered
-            products:
-          </p>
+          <p className="az" ><span className="black-circle">&#9679;</span> Damaged delivered products:</p>
           <div className="ord">
-            <p className="kl">
-              <span className="q">!</span> If you notice that the ordered
-              product is damaged, you can report it to us by contacting TechMe
-              After Sales Service via phone no later than two (2) calendar days
-              after receiving your order.
+            <p className="frr">
+            If you find the ordered product damaged, contact TechMe After Sales Service by phone within two (2) calendar days of receiving your order.
             </p>
           </div>
         </div>
@@ -126,8 +100,10 @@ function Conditions() {
           conditions. If you do not agree with any part of these terms and
           conditions, please do not use our website.
         </p>
-        <img className="logo" src={logo} alt="Description de votre image"></img>
+        
+
       </div>
+      <img className="logo" src={logo} alt="Description de votre image" ></img>
     </div>
   );
 }

@@ -11,7 +11,13 @@
 .smallfilter {
   text-align: center;
 }
+.dh{
+  margin-bottom: 60px;
+}
+.mlk{
+  padding-top: 40px;
 
+}
 .FilterLink:hover {
   border-bottom: 2px solid black;
 }
@@ -97,3 +103,14 @@
   justify-content: center;
   color: grey;
 }
+.second{
+  margin-top: -17px;
+}
+.third{
+  margin-top: -83px;
+}
+.seven{
+margin-top: -60px;
+}
+.eight{
+  margin-top: 2.1rem;}
