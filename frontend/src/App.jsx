@@ -11,51 +11,26 @@ import About from "./pages/about";
 import Conditions from "./pages/conditions";
 import HowToUse from "./pages/how_to_use";
 import FilterOption from "./pages/FilterOption"; 
-import { BrowserRouter , Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter , Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <Switch>
-          <Route exact path="/">
-          {Home}
-          </Route>
-          <Route path="/store">
-          {Store}
-          </Route>
-          <Route exact path="/shipping">
-          {Shipping}
-          </Route>
-          <Route exact path="/contact">
-          {Contact}
-          </Route>
-          <Route exact path="/help">
-          {Help}
-          </Route>
-          <Route exact path="/login">
-          {LoginPage}
-          </Route>
-          <Route exact path="/register">
-          {Register}
-          </Route>
-          <Route exact path="/about">
-          {About}
-          </Route>
-          <Route exact path="/conditions">
-          {Conditions}
-          </Route>
-          <Route exact path="/how_to_use">
-          {HowToUse}
-          </Route>
-          <Route exact path="/Filter-Option">
-          {FilterOption}
-          </Route>
-          <Route exact path="/stre/All" ></Route>
-          <Route exact path="/store/Featured"></Route>
-        </Switch>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/store" element={<Store />} />
+        <Route path="/shipping" element={<Shipping />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/help" element={<Help />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/conditions" element={<Conditions />} />
+        <Route path="/how_to_use" element={<HowToUse />} />
+        <Route path="/Filter-Option" element={<FilterOption />} />
+      </Routes>
     </BrowserRouter>
   );
 }
+
 export default App;
