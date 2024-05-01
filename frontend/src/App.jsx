@@ -4,33 +4,55 @@ import Home from "./pages/Home";
 import Store from "./pages/Store";
 import Shipping from "./pages/Shipping";
 import Contact from "./pages/Contact";
-import Help from "./pages/Help"; 
+import Help from "./pages/Help";
 import LoginPage from "./pages/LoginPage";
 import Register from "./pages/RegisterPage";
-import About from "./pages/about"; 
+import About from "./pages/about";
 import Conditions from "./pages/conditions";
 import HowToUse from "./pages/how_to_use";
-import FilterOption from "./pages/FilterOption"; 
-import { BrowserRouter , Routes, Route } from "react-router-dom";
+import FilterOption from "./pages/FilterOption";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/store" element={<Store />} />
-        <Route path="/shipping" element={<Shipping />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/help" element={<Help />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/conditions" element={<Conditions />} />
-        <Route path="/how_to_use" element={<HowToUse />} />
-        <Route path="/Filter-Option" element={<FilterOption />} />
-      </Routes>
+      <div>
+        <Switch>
+          <Route exact path="/">
+            {Home}
+          </Route>
+          <Route exact path="/store" component={Store} />
+          <Route exact path="/shipping">
+            {Shipping}
+          </Route>
+          <Route exact path="/contact">
+            {Contact}
+          </Route>
+          <Route exact path="/help">
+            {Help}
+          </Route>
+          <Route exact path="/login">
+            {LoginPage}
+          </Route>
+          <Route exact path="/register">
+            {Register}
+          </Route>
+          <Route exact path="/about">
+            {About}
+          </Route>
+          <Route exact path="/conditions">
+            {Conditions}
+          </Route>
+          <Route exact path="/how_to_use">
+            {HowToUse}
+          </Route>
+          <Route exact path="/Filter-Option" component={FilterOption} />
+
+          <Route exact path="/stre/All"></Route>
+          <Route exact path="/store/Featured"></Route>
+        </Switch>
+      </div>
     </BrowserRouter>
   );
 }
-
 export default App;

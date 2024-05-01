@@ -2,32 +2,38 @@
   "laptops": [
     {
       "marque": "msi",
-      "processeur": "Core i7",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
       "ram": "16GB",
       "stokage": "512GB",
       "taille_ecran": "15",
       "os": "Windows 10",
-      "prix": "4000.000",
       "id": "_1"
     },
     {
       "marque": "asus",
-      "processeur": "Core i7",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
       "ram": "12GB",
       "stokage": "512GB",
       "taille_ecran": "15.6",
       "os": "Windows 10",
-      "prix": "4000.000",
       "id": "_2"
     },
     {
       "marque": "hp",
-      "processeur": "Core i7",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
       "ram": "16GB",
       "stokage": "512GB",
       "taille_ecran": "15.6",
       "os": "Windows 10",
-      "prix": "4000.000",
       "id": "_3"
     }
   ]
