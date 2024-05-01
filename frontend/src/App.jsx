@@ -21,9 +21,7 @@ function App() {
           <Route exact path="/">
           {Home}
           </Route>
-          <Route path="/store">
-          {Store}
-          </Route>
+          <Route path="/store" component={Store} />
           <Route exact path="/shipping">
           {Shipping}
           </Route>
@@ -48,9 +46,8 @@ function App() {
           <Route exact path="/how_to_use">
           {HowToUse}
           </Route>
-          <Route exact path="/Filter-Option">
-          {FilterOption}
-          </Route>
+          <Route path="/Filter-Option" component={FilterOption} />
+          
           <Route exact path="/stre/All" ></Route>
           <Route exact path="/store/Featured"></Route>
         </Switch>
