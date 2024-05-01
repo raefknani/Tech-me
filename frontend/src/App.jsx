@@ -4,14 +4,14 @@ import Home from "./pages/Home";
 import Store from "./pages/Store";
 import Shipping from "./pages/Shipping";
 import Contact from "./pages/Contact";
-import Help from "./pages/Help"; 
+import Help from "./pages/Help";
 import LoginPage from "./pages/LoginPage";
 import Register from "./pages/RegisterPage";
-import About from "./pages/about"; 
+import About from "./pages/about";
 import Conditions from "./pages/conditions";
 import HowToUse from "./pages/how_to_use";
-import FilterOption from "./pages/FilterOption"; 
-import { BrowserRouter , Router, Switch, Route } from "react-router-dom";
+import FilterOption from "./pages/FilterOption";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -19,36 +19,36 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/">
-          {Home}
+            {Home}
           </Route>
-          <Route path="/store" component={Store} />
+          <Route exact path="/store" component={Store} />
           <Route exact path="/shipping">
-          {Shipping}
+            {Shipping}
           </Route>
           <Route exact path="/contact">
-          {Contact}
+            {Contact}
           </Route>
           <Route exact path="/help">
-          {Help}
+            {Help}
           </Route>
           <Route exact path="/login">
-          {LoginPage}
+            {LoginPage}
           </Route>
           <Route exact path="/register">
-          {Register}
+            {Register}
           </Route>
           <Route exact path="/about">
-          {About}
+            {About}
           </Route>
           <Route exact path="/conditions">
-          {Conditions}
+            {Conditions}
           </Route>
           <Route exact path="/how_to_use">
-          {HowToUse}
+            {HowToUse}
           </Route>
-          <Route path="/Filter-Option" component={FilterOption} />
-          
-          <Route exact path="/stre/All" ></Route>
+          <Route exact path="/Filter-Option" component={FilterOption} />
+
+          <Route exact path="/stre/All"></Route>
           <Route exact path="/store/Featured"></Route>
         </Switch>
       </div>

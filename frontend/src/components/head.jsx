@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import MenuToggle from "../components/Menue.jsx";
 
 import "../components/styling/header.css";
@@ -58,71 +58,65 @@ function Head() {
       <div style={HeadStyle}>
         <ul className="ulll">
           <li>
-            <NavLink to="/" className="TechME linkk">
+            <Link to="/" className="TechME linkk">
               TechMe
-            </NavLink>
+            </Link>
           </li>
           <div className="center">
             <li>
-              <NavLink
-                to="/"
-                activeClassName="active"
-                className="linkk underline"
-              >
+              <Link to="/" activeClassName="active" className="linkk underline">
                 HOME
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
                 to="/store"
                 activeClassName="active"
                 className="linkk underline"
               >
                 STORE
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
                 to="/shipping"
                 activeClassName="active"
                 className="linkk underline"
               >
                 SHIPPING
-              </NavLink>
+              </Link>
             </li>
             <li>
               <div className="dropdown">
-                <div className="linkk ">
-                  HELP
-                </div>
+                <div className="linkk ">HELP</div>
                 <div className="dropdown-content">
                   <div className="choise1 underline">
-                    <NavLink to="/conditions">Terms of use</NavLink>
+                    <Link to="/conditions">Terms of use</Link>
                   </div>
                   <div className="breaklinee"></div>
                   <div className="choise2 underline">
-                    <NavLink to="/how_to_use">How to use</NavLink>
+                    <Link to="/how_to_use">How to use</Link>
                   </div>
                 </div>
               </div>
             </li>
             <li>
-              <NavLink
+              <Link
                 to="/contact"
                 activeClassName="active"
                 className="linkk underline"
               >
                 CONTACT
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
                 to="/about"
                 activeClassName="active"
                 className="linkk underline"
               >
                 ABOUT
-              </NavLink>
+              </Link>
             </li>
           </div>{" "}
           <li className="searchbox">
@@ -131,7 +125,7 @@ function Head() {
             </a>
           </li>
           <li className="account">
-            <NavLink to="/login">
+            <Link to="/login">
               <i
                 className={
                   isAccountFilled
@@ -142,7 +136,7 @@ function Head() {
                 onMouseOver={toggleAccountFill}
                 onMouseOut={toggleAccountFill}
               ></i>
-            </NavLink>
+            </Link>
           </li>
         </ul>
       </div>

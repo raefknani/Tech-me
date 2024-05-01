@@ -4,6 +4,7 @@ import "../components/styling/Store.css";
 import { NavLink } from "react-router-dom";
 import axios from "axios";
 import LaptopStore from "../components/LaptopStore";
+import laptops from "../../../backend/laptops.json";
 
 import lap1 from "../assets/images/laptop_images/laptop1.png";
 import lap2 from "../assets/images/laptop_images/laptop2.png";
@@ -15,24 +16,35 @@ import lap7 from "../assets/images/laptop_images/xxx.png";
 import lap8 from "../assets/images/laptop_images/lap8.png";
 
 const Store = () => {
-  var [checkedLaptops, setCheckedLaptops] = useState(["_1", "_2", "_3"]);
-
+  var [checkedLaptops, setCheckedLaptops] = useState([]);
+  // get the url query parameter from the location URL*
+  const urlParams = new URLSearchParams(location.search);
+  const result = urlParams.get("result");
   useEffect(() => {
-    console.log("axios.post request started");
     axios
-      .post("http://localhost:5000/submit",{description: "msi"})
+      .post("http://localhost:5000/submit", `description=${result}`, {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      })
       .then((response) => {
         var data = response.data; // This is your actual response from the server
-        console.log(data);
-        document.querySelectorAll(".floatLeft ul li").forEach((li) => {
-          if (data.includes(li.id)) {
-            li.style.display = "block";
-          } else {
-            li.style.display = "none";
+
+        // document.querySelectorAll(".floatLeft ul li").forEach((li) => {
+        //   if (data.includes(li.id)) {
+        //     li.style.display = "block";
+        //   } else {
+        //     li.style.display = "none";
+        //   }
+        // });
+        // read the laptops.json file and filter the ids that we got
+        const LAPTOPS = [];
+        laptops.laptops.forEach((laptop) => {
+          if (data.includes(laptop.id)) {
+            LAPTOPS.push(laptop);
           }
         });
-
-        setCheckedLaptops(data);
+        setCheckedLaptops(LAPTOPS);
       })
       .catch((error) => {
         console.error("Error fetching data: ", error);
@@ -67,7 +79,7 @@ const Store = () => {
         <div className="centerElemnts">
           <div className="floatLeft">
             <ul>
-              <li id="_1">
+              {/* <li id="_1">
                 <LaptopStore
                   image={lap1}
                   pcName="PC PORTABLE MSI PRESTIGE 15 I7 12È GÉN 8GO GTX 1650"
@@ -88,7 +100,16 @@ const Store = () => {
                   price="TND 3259,00"
                 />
               </li>
-              {/* Add more laptop items here */}
+               */}
+              {checkedLaptops.map((laptop) => (
+                <li id={laptop.id}>
+                  <LaptopStore
+                    image={laptop.image}
+                    pcName="{laptop.marque}"
+                    price={laptop.os}
+                  />
+                </li>
+              ))}
             </ul>
           </div>
         </div>
