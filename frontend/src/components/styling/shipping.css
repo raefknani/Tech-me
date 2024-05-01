@@ -1,10 +1,10 @@
 .shipping-container {
   justify-content: center;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
   background-color: rgba(221, 213, 213, 0.199);
-  width:max-content;
-  height:1000px;
+  width: max-content;
+  height: 1000px;
   margin-top: 105px;
   padding-bottom: 80px;
 }
@@ -19,59 +19,55 @@
   margin-bottom: 40px;
 }
 .delivery-heading {
-
   padding-top: 10px;
   color: rgb(17, 4, 91);
   font-size: 20px;
   padding-left: 40px;
 }
 
-.description{
+.description {
   margin-left: 60px;
   margin-bottom: -15px;
   font-size: 16px;
   padding-top: 5px;
-
 }
-.ligne2{
+.ligne2 {
   height: 1px;
   background-color: black;
   margin-top: 150px;
   margin-left: 0px;
-
 }
-.uss{
+.uss {
   margin-left: 190px;
   margin-right: auto;
   margin-top: -70px;
-
 }
-.lasta{
+.lasta {
   margin-left: 840px;
   font-weight: normal;
   margin-top: -135px;
   font-size: 17px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(0, 0, 0);
   margin-bottom: 20px;
 }
-.allsoca{
+.allsoca {
   margin-left: 200px;
   margin-top: 45px;
 }
-.soca{
+.soca {
   font-weight: bold;
   margin-left: 350px;
   margin-right: 25px;
   margin-top: 10px;
 }
-.lila{
+.lila {
   font-weight: bold;
   margin-top: 20px;
   padding-right: 40px;
-  padding-left:150px;
+  padding-left: 150px;
 }
-.ccc{
+.ccc {
   margin-top: -1px;
   margin-bottom: 15px;
   padding-left: 245px;
@@ -79,17 +75,14 @@
   font-weight: bold;
 }
 
-
-.c1{
+.c1 {
   padding-right: 100px;
   display: inline-block;
   margin-left: -150px;
-  
 }
-.lekha{
+.lekha {
   margin-left: 60px;
   margin-top: 20px;
-
 }
 .sub-delivery-heading {
   font-size: 16px;
@@ -101,10 +94,8 @@
   font-family: "Roboto", sans-serif;
   color: rgb(0, 0, 0);
   margin-left: 100px;
-  line-height: 2; 
+  line-height: 2;
 }
-
-
 
 .fcc,
 .instaa,
@@ -117,8 +108,7 @@
   margin-left: 250px; /* nermine */
 }
 
-
-.a{
+.a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
