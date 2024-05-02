@@ -1,22 +1,20 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 import Head from "../components/head.jsx";
 import axios from "axios";
 import "../components/styling/FilterOption.css";
 
-
 import { useHistory } from "react-router-dom";
 
 function FilterOption() {
-  const location = useLocation();
+  const history = useHistory();
   const result = location.state ? location.state.result : null;
 
-  const history = useHistory();
   const handleSubmit = (event) => {
     event.preventDefault();
-  
+
     const description = document.getElementById("description").value;
-  
+
     fetch("http://localhost:5000/submit", {
       method: "POST",
       headers: {
@@ -28,17 +26,16 @@ function FilterOption() {
       .then((data) => {
         console.log(data);
         const firstResult = data[0];
-        history.push({
-          pathname: "/store",
-          state: { result: firstResult },
-        });
+        // history.push({
+        //   pathname: "/store",
+        //   state: { result: firstResult },
+        // });
+        history.push(`/store?result=${description}`);
       })
       .catch((error) => {
         console.error("Error:", error);
       });
   };
-
-  
 
   return (
     <div className="FilterHome">
