@@ -2,6 +2,7 @@
   "laptops": [
     {
       "marque": "msi",
+      "name": "MSI Laptop",
       "processeur": {
         "marque_processeur": "core",
         "generation_processeur": "i7"
@@ -10,10 +11,13 @@
       "stokage": "512GB",
       "taille_ecran": "15",
       "os": "Windows 10",
-      "id": "_1"
+      "id": "_1",
+      "image_source": "/public/msi.png",
+      "price": 1500
     },
     {
       "marque": "asus",
+      "name": "ASUS Laptop",
       "processeur": {
         "marque_processeur": "core",
         "generation_processeur": "i7"
@@ -22,10 +26,13 @@
       "stokage": "512GB",
       "taille_ecran": "15.6",
       "os": "Windows 10",
-      "id": "_2"
+      "id": "_2",
+      "image_source": "/public/msi.png",
+      "price": 1200
     },
     {
       "marque": "hp",
+      "name": "HP Laptop",
       "processeur": {
         "marque_processeur": "core",
         "generation_processeur": "i7"
@@ -34,7 +41,9 @@
       "stokage": "512GB",
       "taille_ecran": "15.6",
       "os": "Windows 10",
-      "id": "_3"
+      "id": "_3",
+      "image_source": "/public/msi.png",
+      "price": 1300
     }
   ]
 }

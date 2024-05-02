@@ -1,6 +1,8 @@
 import json
 from flask import Flask, request
 from flask_cors import CORS
+from flask import send_from_directory
+
 
 app = Flask(__name__)
 CORS(app)
@@ -10,6 +12,11 @@ with open('laptops.json', 'r') as f:
 
 # Extract search format from data
 search_format = data.get('search_format', {})
+
+@app.route('/public/<path:path>')
+def send_report(path):
+    return send_from_directory('public', path)
+
 
 @app.route('/submit', methods=['POST'])
 def submit():
