@@ -2,22 +2,24 @@
   "laptops": [
     {
       "marque": "msi",
-      "name": "MSI Laptop",
+      "name": "MSI Laptop 15.6 inch, 16GB RAM, 512GB SSD, Windows 10, Core i7, 9th Gen, Black - GL65 9SEK-026",
+      
       "processeur": {
         "marque_processeur": "core",
         "generation_processeur": "i7"
       },
+
       "ram": "16GB",
       "stokage": "512GB",
       "taille_ecran": "15",
       "os": "Windows 10",
       "id": "_1",
-      "image_source": "/public/msi.png",
+      "image_source": "/public/Laptops_Img/msi.png",
       "price": 1500
     },
     {
       "marque": "asus",
-      "name": "ASUS Laptop",
+      "name": "ASUS TUF Gaming A15 Laptop, 15.6 inch, 16GB RAM, 512GB SSD, Windows 10, NVIDIA GeForce RTX 2060, Fortress Gray - FA506IV-BR7N12",
       "processeur": {
         "marque_processeur": "core",
         "generation_processeur": "i7"
@@ -27,7 +29,7 @@
       "taille_ecran": "15.6",
       "os": "Windows 10",
       "id": "_2",
-      "image_source": "/public/msi.png",
+      "image_source": "/public/Laptops_Img/asusTuf.png",
       "price": 1200
     },
     {
@@ -42,7 +44,7 @@
       "taille_ecran": "15.6",
       "os": "Windows 10",
       "id": "_3",
-      "image_source": "/public/msi.png",
+      "image_source": "/public/Laptops_Img/msi.png",
       "price": 1300
     }
   ]
