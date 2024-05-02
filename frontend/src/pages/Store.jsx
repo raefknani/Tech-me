@@ -106,7 +106,7 @@ const Store = () => {
                   <LaptopStore
                     image={`http://localhost:5000/${laptop.image_source}`}
                     pcName={laptop.name}
-                    price={`${laptop.price}TND`}
+                    price={`${laptop.price} TND`}
                   />
                 </li>
               ))}
