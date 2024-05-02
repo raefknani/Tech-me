@@ -40,3 +40,7 @@
 .LaptopBox p {
   line-height: 1.5;
 }
+
+.floatLeft ul li {
+  margin-top: 30px;
+}
