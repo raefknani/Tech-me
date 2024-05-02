@@ -104,9 +104,9 @@ const Store = () => {
               {checkedLaptops.map((laptop) => (
                 <li id={laptop.id}>
                   <LaptopStore
-                    image={laptop.image}
-                    pcName="{laptop.marque}"
-                    price={laptop.os}
+                    image={`http://localhost:5000/${laptop.image_source}`}
+                    pcName={laptop.name}
+                    price={`${laptop.price}TND`}
                   />
                 </li>
               ))}
