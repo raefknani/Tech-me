@@ -48,7 +48,7 @@
 }
 
 .floatLeft ul {
-  display: flex;
+ 
   justify-content: left; /* Align items horizontally in the center */
   margin-bottom: 30px;
 }
@@ -59,7 +59,7 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(189, 189, 189, 0.112);
+  
   width: fit-content;
   height: fit-content;
 
@@ -121,3 +121,20 @@ margin-top: -60px;
 }
 .eight{
   margin-top: 2.1rem;}
+
+
+
+
+  /* some animations */
+
+
+
+  .floatleftAnimation{
+
+  }
+
+
+  .ListedLaptops{
+    margin-bottom: 90px;
+    
+  }

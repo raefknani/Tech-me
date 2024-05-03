@@ -33,6 +33,7 @@ def submit():
     for laptop in data['laptops']:
         max = 0
         UserInput = user_input.lower()
+        print(UserInput)
         
         laptop_check = [
             laptop['marque'].lower(),
@@ -41,8 +42,9 @@ def submit():
             laptop['ram'].lower(),
             laptop['stokage'].lower(),
             laptop['taille_ecran'].lower(),
-            laptop['os'].lower()
+            laptop['os'].lower(),
             ]
+        print(laptop_check)
         
         for i in range(len(laptop_check)):
             if (laptop_check[i] in UserInput):

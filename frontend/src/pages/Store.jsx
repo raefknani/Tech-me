@@ -6,14 +6,34 @@ import axios from "axios";
 import LaptopStore from "../components/LaptopStore";
 import laptops from "../../../backend/laptops.json";
 
-import lap1 from "../assets/images/laptop_images/laptop1.png";
-import lap2 from "../assets/images/laptop_images/laptop2.png";
-import lap3 from "../assets/images/laptop_images/laptop3.png";
-import lap5 from "../assets/images/laptop_images/laptop5.png";
-import lap4 from "../assets/images/laptop_images/ddd.png";
-import lap6 from "../assets/images/laptop_images/sss.png";
-import lap7 from "../assets/images/laptop_images/xxx.png";
-import lap8 from "../assets/images/laptop_images/lap8.png";
+function handleClick() {
+  console.log("object clicked");
+
+  // assign the style padding-left: 1000px; to the object
+  var elements = document.getElementsByClassName("LaptopBox");
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].style.paddingRight = "1100px";
+    // hide the element p inside this object
+    
+    elements[i].getElementsByClassName("p1")[0].style.position = "relative";
+    elements[i].getElementsByClassName("p2")[0].style.position = "realative";
+    elements[i].getElementsByClassName("p1")[0].style.left = "600px";
+    elements[i].getElementsByClassName("p1")[0].style.bottom = "100px";
+    elements[i].getElementsByClassName("p2")[0].style.bottom = "100px";
+  }
+  return true;
+}
+function displyNone() {
+  
+    var elements = document.getElementsByClassName("LaptopBox");
+  for(var i = 0; i < elements.length; i++) {
+    var p1Elements = elements[i].getElementsByClassName("p1");
+    for(var j = 0; j < p1Elements.length; j++) {
+      p1Elements[j].style.display = "none";
+    }
+  }
+}
+
 
 const Store = () => {
   var [checkedLaptops, setCheckedLaptops] = useState([]);
@@ -29,15 +49,6 @@ const Store = () => {
       })
       .then((response) => {
         var data = response.data; // This is your actual response from the server
-
-        // document.querySelectorAll(".floatLeft ul li").forEach((li) => {
-        //   if (data.includes(li.id)) {
-        //     li.style.display = "block";
-        //   } else {
-        //     li.style.display = "none";
-        //   }
-        // });
-        // read the laptops.json file and filter the ids that we got
         const LAPTOPS = [];
         laptops.laptops.forEach((laptop) => {
           if (data.includes(laptop.id)) {
@@ -77,32 +88,15 @@ const Store = () => {
         </div>
 
         <div className="centerElemnts">
-          <div className="floatLeft">
+          <div className="floatLeft ">
             <ul>
-              {/* <li id="_1">
-                <LaptopStore
-                  image={lap1}
-                  pcName="PC PORTABLE MSI PRESTIGE 15 I7 12È GÉN 8GO GTX 1650"
-                  price="TND 4569,00"
-                />
-              </li>
-              <li id="_2">
-                <LaptopStore
-                  image={lap2}
-                  pcName="PC PORTABLE ASUS TUF GAMING A15 AMD RYZEN 9 8GO RTX 4070"
-                  price="TND 5119,00"
-                />
-              </li>
-              <li id="_3">
-                <LaptopStore
-                  image={lap3}
-                  pcName="PC Portable Gamer LENOVO LOQ 15APH8 AMD RYZEN 7 32Go RTX 3050"
-                  price="TND 3259,00"
-                />
-              </li>
-               */}
               {checkedLaptops.map((laptop) => (
-                <li id={laptop.id}>
+                <li
+                  id={laptop.id}
+                  className="ListedLaptops"
+                  onClick={() => handleClick(laptop.id)}
+                  on
+                >
                   <LaptopStore
                     image={`http://localhost:5000/${laptop.image_source}`}
                     pcName={laptop.name}
