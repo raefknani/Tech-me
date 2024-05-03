@@ -33,7 +33,7 @@ def submit():
     for laptop in data['laptops']:
         max = 0
         UserInput = user_input.lower()
-        print(UserInput)
+       
         
         laptop_check = [
             laptop['marque'].lower(),
@@ -44,7 +44,7 @@ def submit():
             laptop['taille_ecran'].lower(),
             laptop['os'].lower(),
             ]
-        print(laptop_check)
+        
         
         for i in range(len(laptop_check)):
             if (laptop_check[i] in UserInput):
@@ -53,7 +53,7 @@ def submit():
                 checked_laptop.append(laptop["id"])
     # remove repeated items and replace them with unique items
     checked_laptop = list(set(checked_laptop))
-    print("server :",checked_laptop)
+    
 
         
             

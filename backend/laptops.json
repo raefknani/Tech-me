@@ -1,15 +1,15 @@
 {
   "laptops": [
     {
-      "marque": "MSI",
-      "name": "MSI Laptop 15.6 inch, 16GB RAM, 512GB SSD, Windows 10, Core i7, 9th Gen, Black - GL65 9SEK-026",
+      "marque": "LENOVO IDEAPAD 1",
+      "name": "PC PORTABLE LENOVO IDEAPAD 1 15IGL7 INTEL CELERON N4020 4GO 256G SSD - GRIS",
       
       "processeur": {
         "marque_processeur": "core",
         "generation_processeur": "i7"
       },
 
-      "ram": "16GB",
+      "ram": "4GB",
       "stokage": "512GB",
       "taille_ecran": "15",
       "os": "Windows 10",
@@ -365,6 +365,7 @@
       "image_source": "/public/Laptops_Img/yoga.png",
       "price": 3719
     }
+
     
     
     
