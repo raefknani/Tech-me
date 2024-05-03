@@ -15,7 +15,7 @@
       "os": "Windows 10",
       "id": "_1",
       "image_source": "/public/Laptops_Img/msi.png",
-      "price": 1500
+      "price": 3299
     },
     {
       "marque": "asus",
@@ -30,7 +30,7 @@
       "os": "Windows 10",
       "id": "_2",
       "image_source": "/public/Laptops_Img/asusTuf.png",
-      "price": 1200
+      "price": 3159
     },
     {
       "marque": "hp",
@@ -44,8 +44,336 @@
       "taille_ecran": "15.6",
       "os": "Windows 10",
       "id": "_3",
+      "image_source": "/public/Laptops_Img/hpi7.png",
+      "price": 2649
+    },
+    {
+      "marque": "acer",
+      "name": "Acer Laptop",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
+      "ram": "16GB",
+      "stokage": "512GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 10",
+      "id": "_5",
       "image_source": "/public/Laptops_Img/msi.png",
-      "price": 1300
+      "price": 2174
+    },
+    {
+      "marque": "lenovo",
+      "name": "Lenovo Laptop",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
+      "ram": "16GB",
+      "stokage": "512GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 10",
+      "id": "_10",
+      "image_source": "/public/Laptops_Img/lenovoi7.png",
+      "price": 1779
+    },
+    {
+      "marque": "apple",
+      "name": "Apple MacBook Pro 16 inch, 32GB RAM, 1TB SSD, macOS Monterey, M1 Pro Chip, Space Gray",
+      "processeur": {
+        "marque_processeur": "Apple",
+        "generation_processeur": "M1 Pro"
+      },
+      "ram": "32GB",
+      "stokage": "1TB",
+      "taille_ecran": "16",
+      "os": "macOS Monterey",
+      "id": "_31",
+      "image_source": "/public/Laptops_Img/applemacbook.png",
+      "price": 9599
+    },
+    
+    {
+      "marque": "thomson",
+      "name": "PC PORTABLE THOMSON NEO 14 I3 10È GÉN 8GO 256GO SSD - NOIR",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i3"
+      },
+      "ram": "8GB",
+      "stokage": "256GB",
+      "taille_ecran": "14.1",
+      "os": "Windows 11",
+      "id": "_13",
+      "image_source": "/public/Laptops_Img/thomson.png",
+      "price": 799
+    },
+    {
+      "marque": "HP",
+      "name": "PC PORTABLE GAMER HP VICTUS 15-FA1004NK I5 13È GÉN 16GO RTX 2050",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i5"
+      },
+      "ram": "16GB",
+      "stokage": "512GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_14",
+      "image_source": "/public/Laptops_Img/hpi5.png",
+      "price": 2359
+    },
+    {
+      "marque": "Asus VivoBook",
+      "name": "PC PORTABLE ASUS VIVOBOOK 15 X1504VA I3 13È GÉN 4GO 256GO SSD - BLEU",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i3"
+      },
+      "ram": "4GB",
+      "stokage": "256GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_15",
+      "image_source": "/public/Laptops_Img/vivobook.png",
+      "price": 1095
+    },
+    {
+      "marque": "huawei",
+      "name": "PC PORTABLE HUAWEI MATEBOOK 14 I5 11GÉN 8GO 512GO SSD GRIS (KLVD-WDH9)",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i5"
+      },
+      "ram": "8GB",
+      "stokage": "512GB",
+      "taille_ecran": "14",
+      "os": "Windows 10",
+      "id": "_16",
+      "image_source": "/public/Laptops_Img/MATEBOOK.png",
+      "price": 2499
+    },
+   
+    {
+      "marque": "DELL",
+      "name": "PC PORTABLE DELL LATITUDE 3520 I3 11È GÉN 4GO 256GO SSD - NOIR",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i3"
+      },
+      "ram": "14GB",
+      "stokage": "256GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_18",
+      "image_source": "/public/Laptops_Img/dell1.png",
+      "price": 2175
+    },
+    {
+      "marque": "HP",
+      "name": "PC PORTABLE HP PAVILION X360 2-IN-1 14-EK0002NK I3 12È GÉN 8GO 256GO SSD - BLEU",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i3"
+      },
+      "ram": "8GB",
+      "stokage": "256GB",
+      "taille_ecran": "14",
+      "os": "Windows 11",
+      "id": "_19",
+      "image_source": "/public/Laptops_Img/pavillon.png",
+      "price": 1995
+    },
+    {
+      "marque": "Alienware",
+      "name": "Alienware m15 R6 Gaming Laptop, 15.6 inch, 32GB RAM, 2TB SSD, Windows 10, Intel Core i9, Lunar Light",
+      "processeur": {
+        "marque_processeur": "AMD ",
+        "generation_processeur": "Ryzen 7"
+      },
+      "ram": "16GB",
+      "stokage": "1TB",
+      "taille_ecran": "14",
+      "os": "Windows 11",
+      "id": "_20",
+      "image_source": "/public/Laptops_Img/zenbook.png",
+      "price": 2269
+    },
+    {
+      "marque": "Gigabyte",
+      "name": "PC PORTABLE GAMER GIGABYTE AORUS 15X ASF I9 13È GÉN 16GO RTX 4070",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i9"
+      },
+      "ram": "16GB",
+      "stokage": "1TB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_21",
+      "image_source": "/public/Laptops_Img/gigabyte.png",
+      "price": 7165
+    },
+    {
+      "marque": "GIGABYTE AORUS",
+      "name": "PC PORTABLE GAMER GIGABYTE AORUS 16X ASG I7 14È GÉN 16GO RTX 4070",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
+      "ram": "16GB",
+      "stokage": "1TB",
+      "taille_ecran": "16",
+      "os": "Windows 11",
+      "id": "_22",
+      "image_source": "/public/Laptops_Img/auros.png",
+      "price": 6099
+    },
+    {
+      "marque": "MSI",
+      "name": "PC PORTABLE MSI PRESTIGE 15 I7 12È GÉN 8GO GTX 1650",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
+      "ram": "8GB",
+      "stokage": "512GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_23",
+      "image_source": "/public/Laptops_Img/laptop1.png",
+      "price": 4559
+    },
+    {
+      "marque": "Lenovo",
+      "name": "PC PORTABLE GAMER LENOVO LÉGION 5 PRO 16ARH7H AMD RYZEN 9 16GO RTX 3070TI      ",
+      "processeur": {
+        "marque_processeur": "AMD",
+        "generation_processeur": "Ryzen 9"
+      },
+      "ram": "16GB",
+      "stokage": "1TB",
+      "taille_ecran": "16",
+      "os": "Windows 11",
+      "id": "_24",
+      "image_source": "/public/Laptops_Img/LEGION.png",
+      "price": 6439
+    },
+    {
+      "marque": "Apple Macbook Air",
+      "name": "APPLE MACBOOK AIR M1 8GO 256GO SSD - SILVER",
+      "processeur": {
+        "marque_processeur": "Apple",
+        "generation_processeur": "M1"
+      },
+      "ram": "8GB",
+      "stokage": "256GB",
+      "taille_ecran": "13.3",
+      "os": "MacOS",
+      "id": "_25",
+      "image_source": "/public/Laptops_Img/APPL.png",
+      "price": 3579
+    },
+    {
+      "marque": "HP",
+      "name": "PC PORTABLE HP ENVY X360 2-IN-1 15-FE0000NK I7 13È GÉN 16GO RTX 3050 - SILVER",
+      "processeur": {
+        "marque_processeur": "intel",
+        "generation_processeur": "i 7"
+      },
+      "ram": "16GB",
+      "stokage": "1TB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_26",
+      "image_source": "/public/Laptops_Img/hpflip.png",
+      "price": 5089
+    },
+    {
+      "marque": "DELL Gaming",
+      "name": "PC PORTABLE DELL GAMING G15 5520 / I5 12È GÉN / 24 GO / RTX 3050 4G / 512 GO SSD      ",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i5"
+      },
+      "ram": "24GB",
+      "stokage": "512GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_27",
+      "image_source": "/public/Laptops_Img/deell.png",
+      "price": 2465
+    },
+    {
+      "marque": "Asus VivoBook",
+      "name": "PC PORTABLE ASUS VIVOBOOK 15 X1504 / I3 13È GÉN / 4 GO / WIN11 / BLEU",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i3"
+      },
+      "ram": "4GB",
+      "stokage": "256GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_30",
+      "image_source": "/public/Laptops_Img/samsungGalaxyBook.png",
+      "price": 1095
+    },
+    
+    {
+      "marque": "Huawei MateBook",
+      "name": "TABLETTE ORDINATEUR PORTABLE HUAWEI MATEBOOK E / I7-1260U / 16 GO / 512 GO SSD / WINDOWS 11",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
+      "ram": "16GB",
+      "stokage": "512GB",
+      "taille_ecran": "12.6",
+      "os": "Windows 11",
+      "id": "_32",
+      "image_source": "/public/Laptops_Img/matebook1.png",
+      "price": 4299
+    },
+    {
+      "marque": "ACER",
+      "name": "PC PORTABLE ACER EXTENSA 15 I3 11GÉN 8GO 1TO + 256GO SSD NOIR (NX.EGHEF.00A)",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i3"
+      },
+      "ram": "8GB",
+      "stokage": "1TB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_33",
+      "image_source": "/public/Laptops_Img/acer1.png",
+      "price": 1499
+    },
+    {
+      "marque": "LENOVO YOGA 7",
+      "name": "PC PORTABLE LENOVO YOGA 7 14ITL5 I7 11GÉN 16GO 512GO SSD GRIS (82BH00N6FG)",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
+      "ram": "16GB",
+      "stokage": "512GB",
+      "taille_ecran": "17",
+      "os": "Windows 11",
+      "id": "_34",
+      "image_source": "/public/Laptops_Img/yoga.png",
+      "price": 3719
     }
+    
+    
+    
+    
+
+    
+    
+
+
+    
   ]
 }
