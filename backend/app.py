@@ -123,8 +123,9 @@ def submit():
             laptop['stokage'].lower(),
             laptop['taille_ecran'].lower(),
             laptop['os'].lower(),
-        ]
-
+            laptop['os'].lower()
+            ]
+        print(laptop_check)
         
         for i in range(len(laptop_check)):
             if (laptop_check[i] in user_input):
@@ -133,7 +134,7 @@ def submit():
                 checked_laptop.append(laptop["id"])
     # remove repeated items and replace them with unique items
     checked_laptop = list(set(checked_laptop))
-    print("server :",checked_laptop)
+    
 
         
             

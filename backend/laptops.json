@@ -1,20 +1,20 @@
 {
   "laptops": [
     {
-      "marque": "MSI",
-      "name": "MSI Laptop 15.6 inch, 16GB RAM, 512GB SSD, Windows 10, Core i7, 9th Gen, Black - GL65 9SEK-026",
+      "marque": "LENOVO IDEAPAD 1",
+      "name": "PC PORTABLE LENOVO IDEAPAD 1 15IGL7 INTEL CELERON N4020 4GO 256G SSD - GRIS",
       
       "processeur": {
         "marque_processeur": "core",
         "generation_processeur": "i7"
       },
 
-      "ram": "16GB",
+      "ram": "4GB",
       "stokage": "512GB",
       "taille_ecran": "15",
       "os": "Windows 10",
       "id": "_1",
-      "image_source": "/public/Laptops_Img/msi.png",
+      "image_source": "/public/Laptops_Img/lenovo1.png",
       "price": 3299
     },
     {
@@ -227,7 +227,7 @@
       "taille_ecran": "15.6",
       "os": "Windows 11",
       "id": "_23",
-      "image_source": "/public/Laptops_Img/laptop1.png",
+      "image_source": "/public/Laptops_Img/msi.png",
       "price": 4559
     },
     {
@@ -336,8 +336,174 @@
       "id": "_34",
       "image_source": "/public/Laptops_Img/yoga.png",
       "price": 3719
+    },
+    {
+      "marque": "PC PORTABLE SCHNEIDER",
+      "name": "PC PORTABLE SCHNEIDER SCL142ALM INTEL CELERON N3350 4GO 32GO SILVER",
+      "processeur": {
+        "marque_processeur": "intel",
+        "generation_processeur": "celeron"
+      },
+      "ram": "4GB",
+      "stokage": "32GB",
+      "taille_ecran": "14.1",
+      "os": "Windows 10",
+      "id": "_35",
+      "image_source": "/public/Laptops_Img/shneider.png",
+      "price": 429
+    },
+    {
+      "marque": "DELL",
+      "name": "PC PORTABLE DELL LATITUDE 3520 I3 11È GÉN 4GO 256GO SSD - NOIR",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i3"
+      },
+      "ram": "4GB",
+      "stokage": "256GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_36",
+      "image_source": "/public/Laptops_Img/dell.png",
+      "price": 2175
+    },
+    {
+      "marque": "PC NEXUS ",
+      "name": "PC NEXUS I5 10GÉN 16GO 512GO SSD NOIR",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i5"
+      },
+      "ram": "16GB",
+      "stokage": "512GB",
+      "taille_ecran": "21.5",
+      "os": "Windows 11",
+      "id": "_37",
+      "image_source": "/public/Laptops_Img/nexus.png",
+      "price": 1219
+    },
+    {
+      "marque": "PC BUREAU GAMER AMD RYZEN 3 ",
+      "name": "PC DE BUREAU GAMER AMD RYZEN 3 8GO 512GO SSD NOIR",
+      "processeur": {
+        "marque_processeur": "ryzen",
+        "generation_processeur": "3"
+      },
+      "ram": "8GB",
+      "stokage": "512GB",
+      "taille_ecran": "21.45",
+      "os": "Windows 11",
+      "id": "_38",
+      "image_source": "/public/Laptops_Img/bureau.png",
+      "price": 1400
+    },
+    {
+      "marque": "PC PORTABLE GAMER DELL",
+      "name": "PC PORTABLE GAMER DELL G15 5530 I7 13È GÉN 24GO RTX 4060",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
+      "ram": "24GB",
+      "stokage": "512GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_39",
+      "image_source": "/public/Laptops_Img/gamerdell.png",
+      "price": 4759
+    },
+    {
+      "marque": "APPLE MACBOOK AIR M2",
+      "name": "APPLE MACBOOK AIR M2 (2022) 8GO 256GO SSD - MINUIT",
+      "processeur": {
+        "marque_processeur": "Apple",
+        "generation_processeur": "M2"
+      },
+      "ram": "8GB",
+      "stokage": "256GB",
+      "taille_ecran": "13.6",
+      "os": " macOS",
+      "id": "_40",
+      "image_source": "/public/Laptops_Img/apple2.png",
+      "price": 4335
+    },
+    {
+      "marque": "APPLE MACBOOK PRO M3",
+      "name": "APPLE MACBOOK PRO M3 (2023) 8GO 512GO SSD - GRIS SIDÉRAL",
+      "processeur": {
+        "marque_processeur": "Apple",
+        "generation_processeur": "M2"
+      },
+      "ram": "8GB",
+      "stokage": "512GB",
+      "taille_ecran": "14",
+      "os": " macOS",
+      "id": "_41",
+      "image_source": "/public/Laptops_Img/apple3.png",
+      "price": 7129
+    },
+        {
+      "marque": "MSI",
+      "name": "MSI GF65 Thin 10UE-092FR",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
+      "ram": "16GB",
+      "stokage": "512GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 10",
+      "id": "_42",
+      "image_source": "/public/Laptops_Img/msi1.png",
+      "price": 2999
+    },
+    {
+      "marque": "MSI",
+      "name": "MSI GF65 Thin 10UE-092FR",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
+      "ram": "16GB",
+      "stokage": "512GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 10",
+      "id": "_43",
+      "image_source": "/public/Laptops_Img/msi2.png",
+      "price": 2999
+    },
+    {
+      "marque": "MSI",
+      "name": "PC PORTABLE GAMER MSI KATANA 15 B12V I5 12È GÉN 8GO RTX 4060",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i5"
+      },
+      "ram": "8GB",
+      "stokage": "512GB",
+      "taille_ecran": "15.6",
+      "os": "Windows 11",
+      "id": "_44",
+      "image_source": "/public/Laptops_Img/msi3.png",
+      "price": 3299
+    },
+    {
+      "marque": "MSI",
+      "name": "PC PORTABLE GAMER MSI CYBORG 15 A12VE I7 12È GÉN 16GO RTX 4050 ",
+      "processeur": {
+        "marque_processeur": "core",
+        "generation_processeur": "i7"
+      },
+      "ram": "16GB",
+      "stokage": "512GB",
+      "taille_ecran": "15.6",
+      "id": "_45",
+      "image_source": "/public/Laptops_Img/msi4.png",
+      "price": 3189
     }
     
+    
+  
     
     
     
