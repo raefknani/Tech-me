@@ -22,7 +22,7 @@ def send_report(path):
 def submit():
     # Get the user's input
     user_input = request.form.get('description', '')
-    UserInput = user_input
+    UserInput = user_input.lower()
 
     laptop_scores = {}
     checked_laptop = []
@@ -32,17 +32,19 @@ def submit():
         data = json.load(f)
     for laptop in data['laptops']:
         max = 0
-        UserInput = user_input
+        UserInput = user_input.lower()
+        print(UserInput)
         
         laptop_check = [
-            laptop['marque'],
-            laptop['processeur']['marque_processeur'],
-            laptop['processeur']['generation_processeur'],
-            laptop['ram'],
-            laptop['stokage'],
-            laptop['taille_ecran'],
-            laptop['os']
+            laptop['marque'].lower(),
+            laptop['processeur']['marque_processeur'].lower(),
+            laptop['processeur']['generation_processeur'].lower(),
+            laptop['ram'].lower(),
+            laptop['stokage'].lower(),
+            laptop['taille_ecran'].lower(),
+            laptop['os'].lower(),
             ]
+        print(laptop_check)
         
         for i in range(len(laptop_check)):
             if (laptop_check[i] in UserInput):
