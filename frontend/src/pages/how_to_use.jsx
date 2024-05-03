@@ -5,7 +5,7 @@ import caphome from "../assets/images/backgrounds/cap_home.png";
 import capfiltre from "../assets/images/backgrounds/capfiltre.png";
 import capcontact from "../assets/images/backgrounds/cap-contact.png"
 import capshipping from "../assets/images/backgrounds/cap-shipping.png"
-
+import logo from "../assets/images/logos/logo.png";
 function HowToUse() {
   return (
     <div>
@@ -50,6 +50,7 @@ function HowToUse() {
           </ul> 
 
           <p className="thank">"Thank you for choosing TechMe"</p>
+          <img className="logo" src={logo} alt="Description de votre image" ></img>
        </div>
       </div>
     </div>
