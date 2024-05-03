@@ -47,21 +47,7 @@
       "image_source": "/public/Laptops_Img/hpi7.png",
       "price": 2649
     },
-    {
-      "marque": "acer",
-      "name": "Acer Laptop",
-      "processeur": {
-        "marque_processeur": "core",
-        "generation_processeur": "i7"
-      },
-      "ram": "16GB",
-      "stokage": "512GB",
-      "taille_ecran": "15.6",
-      "os": "Windows 10",
-      "id": "_5",
-      "image_source": "/public/Laptops_Img/msi.png",
-      "price": 2174
-    },
+  
     {
       "marque": "lenovo",
       "name": "Lenovo Laptop",
@@ -290,7 +276,7 @@
       "price": 5089
     },
     {
-      "marque": "DELL Gaming",
+      "marque": "dell",
       "name": "PC PORTABLE DELL GAMING G15 5520 / I5 12È GÉN / 24 GO / RTX 3050 4G / 512 GO SSD      ",
       "processeur": {
         "marque_processeur": "core",
@@ -304,21 +290,7 @@
       "image_source": "/public/Laptops_Img/deell.png",
       "price": 2465
     },
-    {
-      "marque": "Asus VivoBook",
-      "name": "PC PORTABLE ASUS VIVOBOOK 15 X1504 / I3 13È GÉN / 4 GO / WIN11 / BLEU",
-      "processeur": {
-        "marque_processeur": "core",
-        "generation_processeur": "i3"
-      },
-      "ram": "4GB",
-      "stokage": "256GB",
-      "taille_ecran": "15.6",
-      "os": "Windows 11",
-      "id": "_30",
-      "image_source": "/public/Laptops_Img/samsungGalaxyBook.png",
-      "price": 1095
-    },
+    
     
     {
       "marque": "Huawei MateBook",
