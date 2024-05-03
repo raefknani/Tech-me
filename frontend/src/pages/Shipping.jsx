@@ -88,7 +88,7 @@ function Shipping() {
                         </div>
                         <div className="lasta">
                             <div>
-                                <div className="mail"><span className="grass">Email: </span><a href="info@techme.com">info@techme.com</a></div>
+                                <div className="mmail"><span className="grass">Email: </span><a href="info@techme.com">info@techme.com</a></div>
                                 <div className="phone"><span className="grass">Phone number:</span> +216 73 000 000</div>
                             </div>    
                         </div>

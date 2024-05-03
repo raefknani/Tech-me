@@ -139,7 +139,7 @@ function about() {
 
             <div className="last">
               <div>
-                <div className="mail">
+                <div className="mmail">
                   <span className="grass">Email: </span>
                   <a href="info@techme.com">info@techme.com</a>
                 </div>
