@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../components/styling/Slider.css';
-import 'boxicons';
-
+import boxicons from 'boxicons';
 import laptop1 from '../assets/images/laptop_images/laptop1.png';
 import laptop2 from '../assets/images/laptop_images/laptop2.png';
 import laptop3 from '../assets/images/laptop_images/laptop3.png';

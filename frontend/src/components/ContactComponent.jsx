@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom'; // Import useLocation hook
+import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
 import '../components/styling/ContactFormCSS.css';
 
 function ContactForm() {

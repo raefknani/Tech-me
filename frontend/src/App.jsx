@@ -11,7 +11,7 @@ import About from "./pages/about";
 import Conditions from "./pages/conditions";
 import HowToUse from "./pages/how_to_use";
 import FilterOption from "./pages/FilterOption";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter , Route ,Switch } from "react-router-dom/cjs/react-router-dom.min";
 
 function App() {
   return (

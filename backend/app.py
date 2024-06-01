@@ -122,8 +122,7 @@ def submit():
             laptop['ram'].lower(),
             laptop['stokage'].lower(),
             laptop['taille_ecran'].lower(),
-            laptop['os'].lower(),
-            laptop['os'].lower()
+            laptop['os'].lower()            
             ]
         print(laptop_check)
         
@@ -134,11 +133,6 @@ def submit():
                 checked_laptop.append(laptop["id"])
     # remove repeated items and replace them with unique items
     checked_laptop = list(set(checked_laptop))
-    
-
-        
-            
-   
 
     return json.dumps(checked_laptop)
 

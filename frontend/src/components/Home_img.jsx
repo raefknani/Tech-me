@@ -1,7 +1,7 @@
 import React from "react";
 import homeImg from "../assets/images/backgrounds/img_home_test3.png";
 import "../components/styling/imgBTW.css";
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 function Home_img() {
   return (

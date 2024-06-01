@@ -1,5 +1,5 @@
 import React, {useState } from "react"; 
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import "../components/styling/login.css";  
 
 
